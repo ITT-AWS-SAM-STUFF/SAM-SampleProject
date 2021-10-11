@@ -3,18 +3,13 @@
 }
 
 .header-full {
-  height: 13vh;
+  height: 10vh;
+  background-color: rgb(145, 143, 143);
   border: 2px solid #000;
   display: flex;
-  justify-content: space-around;
-}
-
-.search-bar {
-  height: 15%;
-  width: 20%;
-  display: flex;
-  align-self: center;
-  border: 2px dotted blue;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
 }
 
 .checkbox-flexbox {
@@ -25,16 +20,32 @@
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
 
 .seat-display-checkbox-list {
-  width: 20%;
+  min-width: 40%;
   display: flex;
   justify-content: center;
   align-self: center;
+}
+
+.search-bar {
+  min-height: 25%;
+  min-width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  border: 2px double orange;
+}
+
+.seat-display {
+  height: 85vh;
+  border: 2px solid #000;
+  margin: 1rem;
 }
 
 .App-logo {
